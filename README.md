@@ -23,4 +23,6 @@ For example, In a function component, we have no this, so we can’t assign or 
 
  1. https://reactjs.org/docs/hooks-state.html 
 
-2. https://reactjs.org/docs/hooks-state.html
+2. https://reactjs.org/docs/hooks-state.html 
+
+3. https://www.taniarascia.com/crud-app-in-react-with-hooks/comment-page-1/#comment-11850 
