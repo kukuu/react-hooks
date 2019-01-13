@@ -7,7 +7,8 @@
 
 3. With functions when you exit, variables are destroyed. 
 
-4. Which is not how REACT works. So the use of Hooks like user data allows you to preserve local states on re-render.
+4. Which is not how REACT works. So the use of Hooks like user data 
+allows you to preserve local states on re-render.
 
 ```
 ## What does it do?
