@@ -15,7 +15,7 @@ allows you to preserve local states on re-render.
 
 A Hook is a special function that lets you “hook into” React features. For example, useState is a Hook that lets you add React state to function components. 
 
- If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component. We’re going to do that right now!
+ If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component.
 
 For example, In a function component, we have no this, so we can’t assign or read this.state. Instead, we call the useState Hook directly inside our component:
 
