@@ -12,7 +12,7 @@ useEffect is a React hook which accepts a callback as it’s the first argument.
 
 Life cycle are used to free up resources due to asynchronous nature i/o, non-blocking single threaded nature of JS.
 
-Also, not the use of setters as second parameters in the array definition to useState in the initial de-structuring, and setting initial default values/states
+Also, not the use of setters as second parameters in the array definition to useState in the initial de-structuring, and setting initial default values/states.
 
 1. With CLASS
 
@@ -179,4 +179,5 @@ The second argument will be dependencies for that effect. If one of the dependen
 Try:  
 
 i. Create .env file in the top directory
+
 ii. Insert - SKIP_PREFLIGHT_CHECK=true
