@@ -17,7 +17,30 @@ A Hook is a special function that lets you “hook into” React features. For e
 
  If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component.
 
-For example, In a function component, we have no this, so we can’t assign or read this.state. Instead, we call the useState Hook directly inside our component:
+For example, In a function component, we have no this, so we can’t assign or read this.state. Instead, we call the useState Hook directly inside our component.
+
+## Refactoring a React class to a React Hook
+
+Open  App.js file and turn it into a Hook. Refactor your App.js to the following:
+Basically just turn the class into an arrow function and delete the render method. 
+
+```
+import React, { Component } from 'react';
+import Routes from './routes';
+
+const App = () => {
+
+    return(
+      <div>
+      React
+      <Routes />
+      </div>
+    )
+}
+
+export default App;
+
+```
 
 ## More reading 
 
