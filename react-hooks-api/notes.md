@@ -125,7 +125,7 @@ export default Planets;
 ```
 
 
-5. Moving fetchData out of the hook entirely.
+5. Moving fetchData out of the hook entirely, into a separate module. Can be better unit tested.
 
 
 ```
