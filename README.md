@@ -66,6 +66,47 @@ const [value, setValue] = useState(0)
 
 ```
 
+## Counter with Hooks
+
+In the example below the counter has been purely created from Hooks without the use of "props" and "state" keywords. 
+We have used variable and function name directly.
+
+```
+
+import React, { useState } from 'react';
+
+
+
+
+const HooksContainer = () => {
+
+  const [value, setValue] = useState(0)
+
+  const incrementValue = () => {
+    setValue(value + 1 )
+  }
+
+  const decrementValue = () => {
+    setValue(value - 1 )
+  }
+
+    return(
+      <div>
+        <button onClick={() => incrementValue()}> Add Local Value </button>
+        <button onClick={() => decrementValue()}> Dec Local Value </button>
+        <br />
+        <div>
+          Local React State: {value}
+        </div>
+      </div>
+    )
+}
+
+
+export default HooksContainer;
+
+```
+
 ## More reading 
 
  1. https://reactjs.org/docs/hooks-state.html 
