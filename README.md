@@ -57,6 +57,15 @@ const HooksContainer = () => {
 export default HooksContainer;`
 
 ```
+
+The useState() hook is similar to the React setState() function. It is setup with array destructuring, where the first element in the array is the state value and the second element is a function to change the state i.e:
+
+
+``` 
+const [value, setValue] = useState(0)
+
+```
+
 ## More reading 
 
  1. https://reactjs.org/docs/hooks-state.html 
