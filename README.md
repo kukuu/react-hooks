@@ -75,9 +75,6 @@ We have used variable and function name directly.
 
 import React, { useState } from 'react';
 
-
-
-
 const HooksContainer = () => {
 
   const [value, setValue] = useState(0)
