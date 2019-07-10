@@ -42,6 +42,21 @@ export default App;
 
 ```
 
+```
+import React, { useState } from 'react';
+
+const HooksContainer = () => {
+
+    return(
+      <div>
+
+      </div>
+    )
+}
+
+export default HooksContainer;`
+
+```
 ## More reading 
 
  1. https://reactjs.org/docs/hooks-state.html 
