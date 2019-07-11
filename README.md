@@ -77,7 +77,7 @@ import React, { useState } from 'react';
 
 const HooksContainer = () => {
 
-  const [value, setValue] = useState(0)
+  const [value, setValue] = useState(0) //destructuring
 
   const incrementValue = () => {
     setValue(value + 1 )
@@ -89,6 +89,7 @@ const HooksContainer = () => {
 
     return(
       <div>
+      //You can call the function directly
         <button onClick={() => incrementValue()}> Add Local Value </button>
         <button onClick={() => decrementValue()}> Dec Local Value </button>
         <br />
