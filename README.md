@@ -77,7 +77,7 @@ import React, { useState } from 'react';
 
 const HooksContainer = () => {
 
-  const [value, setValue] = useState(0) //destructuring
+  const [value, setValue] = useState(0) //destructuring. Array of 2 signatures: i. value/state and a function(setter).
 
   const incrementValue = () => {
     setValue(value + 1 )
