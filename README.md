@@ -10,6 +10,14 @@
 4. Which is not how REACT works. So the use of Hooks like user data 
 allows you to preserve local states on re-render.
 
+5. React Hooks are simple functions that work in conjunction with the React dispatcher.
+As such, they need to be called at rendering time (of the respective component),
+and they have to appear in the same order. 
+
+6. React Hooks should never be inside a condition or loop. 
+
+7. They can only be used by functional components.
+
 ```
 ## What does it do?
 
@@ -112,3 +120,5 @@ export default HooksContainer;
 2. https://reactjs.org/docs/hooks-state.html 
 
 3. https://www.taniarascia.com/crud-app-in-react-with-hooks/comment-page-1/#comment-11850 
+
+4. https://blog.logrocket.com/building-carousel-component-react-hooks/
