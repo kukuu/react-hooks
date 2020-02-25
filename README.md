@@ -74,6 +74,23 @@ const [value, setValue] = useState(0)
 
 ```
 
+
+## STATE MANAGEMENT
+
+React comes with built-in hooks to manage local state: useState, useReducer, useContext. All of these can be used for sophisticated local state management in React. 
+
+All of React's built-in hooks are great for local state management. When it comes to state management of remote data,  recommend to use Apollo Client, if the remote data comes with a GraphQL endpoint. Alternatives for Apollo Client are urql and Relay.
+
+If the remote data doesn't come from a GraphQL endpoint, try to manage it with React's Hooks. If it doesn't work out, a solution like Redux or MobX/Mobx State tree may help.
+
+### Recommendations:
+
+1. Local State: React's useState, useReducer, useContext Hooks
+
+2. Remote State via GraphQL: Apollo Client
+
+3. Remote State via REST: React Hooks or Redux/MobX/Mobx State Tree
+
 ## Counter with Hooks
 
 In the example below the counter has been purely created from Hooks without the use of "props" and "state" keywords. 
